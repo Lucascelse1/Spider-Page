@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(/assets/img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo-nav {
+    width: 3.5rem;
+}
+
+.icon-nav {
+    width: 4rem;
+}
+
+#header{
+    background-color: rgb(188,20,36);
+}
+
+.navegation div ul li a {
+    color: white;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.table {
+    max-width: 90%;
+    margin: 0 auto;
+}
