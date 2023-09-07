@@ -41,8 +41,9 @@
     height: 100vh;
     display: flex;
     width: 100%;
-    justify-content: center;
     align-items: center;
+    background-color: black;
+    flex-direction: column;
 }
 
 .carouselText {
@@ -53,10 +54,25 @@
 
 .img {
     height: 35rem;
+    max-width: 100%;
+    border: 2rem solid white;
 }
 
 .carousel {
     width: 90%;
+}
+
+.titulo-trajes {
+    width: 90%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.titulo-trajes h1 {
+    font-size: 2rem;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .3rem;
 }
 
 @media only screen and (min-width: 860px) {
@@ -72,5 +88,6 @@
     .logo-nav2 {
       display: block;
     }
+
 
 }
