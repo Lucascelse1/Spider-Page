@@ -93,7 +93,7 @@
     width: 100%;
 }
 
-.skills-details, p, h2, h1 {
+.skills-text {
     color: white;
     text-align: center;
     padding: 1rem;
@@ -131,11 +131,15 @@
     padding: 2rem;
 }
 
-.titulo-trajes h1 {
+.titulo-trajes > h1 {
     font-size: 2rem;
     color: white;
     font-family: monospace;
     letter-spacing: .3rem;
+}
+
+.titulo-historia {
+    color: black;
 }
 
 
