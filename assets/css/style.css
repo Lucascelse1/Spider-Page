@@ -205,30 +205,8 @@
         border: 10px solid #db1414;
     }
 
-    .container-villanos {  display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "villano1 villano2 villano3 villano4"
-          "villano5 villano6 villano7 villano8";
-      }
-      
-      .villano1 { grid-area: villano1; }
-      
-      .villano2 { grid-area: villano2; }
-      
-      .villano3 { grid-area: villano3; }
-      
-      .villano4 { grid-area: villano4; }
-      
-      .villano5 { grid-area: villano5; }
-      
-      .villano6 { grid-area: villano6; }
-      
-      .villano7 { grid-area: villano7; }
-      
-      .villano8 { grid-area: villano8; }
-      
+    .container-villanos {
+        margin-top: 20px;  
+        display: grid;
+    }
 }
