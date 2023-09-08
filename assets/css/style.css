@@ -5,7 +5,10 @@
 }
 
 .home {
-    background-color: rgb(0, 0, 0);
+    background-image: url(/assets/img/home-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -44,6 +47,18 @@
     font-family: monospace;
     font-weight: bold;
     font-size: 2.3rem;
+}
+
+.descripcion {
+    padding: 1rem;
+    text-align: center;
+}
+
+.descripcion p {
+    color: white;
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .table {
@@ -94,7 +109,7 @@
 @media only screen and (min-width: 860px) {
 
     .home {
-        background-image: url(/assets/img/fondo.png);
+        background-image: url(/assets/img/Spider-man.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -103,6 +118,10 @@
 
     .logo-nav2 {
       display: block;
+    }
+
+    .titulo-home {
+        justify-content: start;
     }
 
 
