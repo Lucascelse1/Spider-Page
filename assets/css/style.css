@@ -32,6 +32,20 @@
     letter-spacing: .1rem;
 }
 
+.titulo-home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.titulo-home h1 {
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
 .table {
     max-width: 90%;
     margin: 0 auto;
@@ -74,6 +88,8 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: .3rem;
 }
+
+
 
 @media only screen and (min-width: 860px) {
 
