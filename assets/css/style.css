@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
 }
 
 .logo-nav {
@@ -61,6 +60,22 @@
     font-weight: bold;
 }
 
+.skills-container {
+    background-image: url(/assets/img/fondo-mobile2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.skills-tittle {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
 .div-table {
     width: 100%;
     display: flex;
@@ -68,13 +83,22 @@
     padding: 1rem;
 }
 
-.table {
-    max-width: 100%;
+.table-dark {
+    width: 100%;
     text-align: center;
-    border: .1rem solid black;
+    border: .1rem solid white;
 }
 
+.skilss-details {
+    width: 100%;
+}
 
+.skills-details, p, h2, h1 {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
 
 .containerxd {
     height: 100vh;
@@ -110,7 +134,7 @@
 .titulo-trajes h1 {
     font-size: 2rem;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace;
     letter-spacing: .3rem;
 }
 
