@@ -158,20 +158,77 @@
 
     .historia-container {
         width: 100%;
-        display: flex;
-        justify-content: center;
         font-family: monospace;
+        background-color: black;
     }
 
     .div-historia {
-        width: 80%;
+        width: 100%;
         text-align: center;
+        color: white;
     }
 
     .titulo-historia {
         padding: 2rem;
     }
 
-    
+    .historia-texto {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
 
+    .historia-imgs {
+        padding: 2rem;
+        display: grid; 
+        place-items: center;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 20px; 
+        grid-template-areas: 
+            "img1 img2 img3"
+    }
+
+    .img1 { 
+        grid-area: img1;
+    }
+
+    .img2 { 
+        grid-area: img2; 
+        width: 14rem;
+    }
+    .img3 { 
+        grid-area: img3; 
+    }
+
+    .img1, .img2, .img3 {
+        border: 10px solid #db1414;
+    }
+
+    .container-villanos {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "villano1 villano2 villano3 villano4"
+          "villano5 villano6 villano7 villano8";
+      }
+      
+      .villano1 { grid-area: villano1; }
+      
+      .villano2 { grid-area: villano2; }
+      
+      .villano3 { grid-area: villano3; }
+      
+      .villano4 { grid-area: villano4; }
+      
+      .villano5 { grid-area: villano5; }
+      
+      .villano6 { grid-area: villano6; }
+      
+      .villano7 { grid-area: villano7; }
+      
+      .villano8 { grid-area: villano8; }
+      
 }
