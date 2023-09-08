@@ -138,12 +138,6 @@
     letter-spacing: .3rem;
 }
 
-.titulo-historia {
-    color: black;
-}
-
-
-
 @media only screen and (min-width: 860px) {
 
     .home {
@@ -162,5 +156,22 @@
         justify-content: start;
     }
 
+    .historia-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: monospace;
+    }
+
+    .div-historia {
+        width: 80%;
+        text-align: center;
+    }
+
+    .titulo-historia {
+        padding: 2rem;
+    }
+
+    
 
 }
