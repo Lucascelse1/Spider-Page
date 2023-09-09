@@ -4,12 +4,9 @@
     box-sizing: border-box;
 }
 
-.home {
-    background-image: url(/assets/img/home-mobile.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
+
+/*----> NAV SECTION <----*/
 
 .logo-nav {
     width: 3.5rem;
@@ -32,6 +29,19 @@
     color: white;
     font-weight: bold;
     letter-spacing: .1rem;
+}
+
+/*----> NAV SECTION <----*/
+
+
+
+/*----> SECTION HOME <----*/
+
+.home {
+    background-image: url(/assets/img/home-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .titulo-home {
@@ -59,6 +69,12 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+/*----> SECTION HOME <----*/
+
+
+
+/*----> SKILLS SECTION <----*/
 
 .skills-container {
     background-image: url(/assets/img/fondo-mobile2.png);
@@ -100,6 +116,12 @@
     margin: 0;
 }
 
+/*----> SKILLS SECTION <----*/
+
+
+
+/*----> SUITS SECTION <----*/
+
 .containerxd {
     height: 100vh;
     display: flex;
@@ -138,6 +160,9 @@
     letter-spacing: .3rem;
 }
 
+/*----> SUITS SECTION <----*/
+
+
 
 @media only screen and (min-width: 860px) {
 
@@ -161,6 +186,10 @@
         width: 100%;
         font-family: monospace;
         background-color: black;
+    }
+
+    .descripcion {
+        text-align: left;
     }
 
     .div-historia {
@@ -213,5 +242,13 @@
 
     .villanos-main {
         background-color: black;
+    }
+
+    .col {
+        padding: 2rem;
+    }
+
+    .card {
+        font-weight: bold;
     }
 }
