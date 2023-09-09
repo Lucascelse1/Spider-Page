@@ -138,6 +138,7 @@
     letter-spacing: .3rem;
 }
 
+
 @media only screen and (min-width: 860px) {
 
     .home {
@@ -205,8 +206,8 @@
         border: 10px solid #db1414;
     }
 
-    .container-villanos {
-        margin-top: 20px;  
-        display: grid;
+
+    .container {
+        margin-top: 2rem;
     }
 }
