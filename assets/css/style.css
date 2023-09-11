@@ -70,6 +70,18 @@
     font-weight: bold;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/img/footerimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
 /*----> SECTION HOME <----*/
 
 
@@ -250,5 +262,11 @@
 
     .card {
         font-weight: bold;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10rem;
     }
 }
