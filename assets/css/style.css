@@ -186,6 +186,7 @@
         width: 100%;
         font-family: monospace;
         background-color: black;
+        height: 100vh;
     }
 
     .descripcion {
@@ -234,7 +235,6 @@
     .img1, .img2, .img3 {
         border: 10px solid #db1414;
     }
-
 
     .container {
         padding: 4rem;
