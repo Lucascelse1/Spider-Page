@@ -37,6 +37,15 @@ header .nav-bar-items .icon-nav {
     background-size: cover;
     height: 100vh;
   }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(188, 20, 37, 0.799);
+  }
+  footer .logo-nav {
+    width: 8rem;
+  }
   .titulo-home {
     justify-content: start;
   }

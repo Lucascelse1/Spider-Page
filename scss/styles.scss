@@ -1,4 +1,4 @@
-@import "./components/_nav-bar";
+@import "components/_nav-bar";
 
 *{
   margin: 0;
@@ -14,6 +14,16 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(188, 20, 37, 0.799);;
+    .logo-nav {
+      width: 8rem;
+    }
   }
 
   .titulo-home {
