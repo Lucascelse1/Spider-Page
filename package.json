@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "latest": "^0.2.0"
+  },
+  "name": "spiderpage-copia",
+  "description": "2da Pre-entrega del curso de desarrollo Front-End de CODERHOUSE\r En este proyecto tuve la oportunidad de reforzar muchisimo mis conocimientos de bootstrap, a demas de volver a utilizar media queries y el uso como siempre de movile first.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

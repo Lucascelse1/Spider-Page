@@ -1,0 +1,38 @@
+header {
+    background-color: rgb(188, 20, 36);
+    width: 100%;
+
+    .nav-bar-items{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        
+        .navegation {
+                 
+            .nav-link {
+                color: white;
+                font-weight: bold;
+                letter-spacing: 0.1rem;
+            }
+                    
+            
+        }
+        
+        .nav-logo2 {
+            width: 3.5rem;
+        }
+
+        .icon-div {
+            display: flex;
+            align-items: center;
+        }
+
+        .icon-nav {
+            width: 4rem;
+        }
+
+    }
+    
+  
+    
+  }
