@@ -1,0 +1,40 @@
+.containerxd {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+
+  .titulo-trajes {
+    width: 90%;
+    text-align: center;
+    padding: 2rem;
+
+    h1 {
+      font-size: 2rem;
+      color: white;
+      letter-spacing: 0.3rem;
+    }
+
+  }
+
+  .carousel {
+    width: 90%;
+    padding-bottom: 4rem;
+    
+    .carouselText {
+      font-weight: bolder;
+      background-color: rgba(0, 0, 0, 0.471);
+    }
+
+    .carousel-item {
+      .img {
+        height: 35rem;
+        max-width: 100%;
+        border: 2rem solid white;
+      }
+    }
+  }
+
+
+}

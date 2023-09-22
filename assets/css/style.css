@@ -1,9 +1,14 @@
+body {
+  font-family: monospace;
+}
+
 header {
   background-color: rgb(188, 20, 36);
   width: 100%;
 }
 header .nav-bar-items {
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: space-between;
 }
@@ -12,21 +17,69 @@ header .nav-bar-items .navegation .nav-link {
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
+header .nav-bar-items .items-nav1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 header .nav-bar-items .nav-logo2 {
   width: 3.5rem;
 }
 header .nav-bar-items .icon-div {
-  display: flex;
-  align-items: center;
+  display: none;
 }
 header .nav-bar-items .icon-nav {
   width: 4rem;
 }
 
+@media only screen and (min-width: 860px) {
+  header .nav-bar-items {
+    flex-direction: row;
+  }
+  header .nav-bar-items .icon-div {
+    display: flex;
+    align-items: center;
+  }
+  header .nav-bar-items .icon-div .icon-nav {
+    align-items: center;
+  }
+  header .nav-bar-items .items-nav1 {
+    width: max-content;
+  }
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.home {
+  background-image: url(/assets/img/home-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home .titulo-home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.home .titulo-home h1 {
+  color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+.home .descripcion {
+  padding: 1rem;
+  text-align: center;
+}
+.home .descripcion p {
+  color: white;
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 860px) {
@@ -37,41 +90,125 @@ header .nav-bar-items .icon-nav {
     background-size: cover;
     height: 100vh;
   }
-  footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(188, 20, 37, 0.799);
-  }
-  footer .logo-nav {
-    width: 8rem;
-  }
-  .titulo-home {
+  .home .titulo-home {
     justify-content: start;
   }
-  .historia-container {
-    width: 100%;
-    font-family: monospace;
-    background-color: black;
-    height: 100vh;
-  }
-  .descripcion {
+  .home .descripcion {
     text-align: left;
   }
-  .div-historia {
+}
+.skills-container {
+  background-image: url(/assets/img/fondo-mobile2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.skills-container .skills-tittle {
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: underline;
+}
+.skills-container .div-table {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.skills-container .div-table .table-dark {
+  width: 100%;
+  text-align: center;
+  border: 0.1rem solid white;
+}
+.skills-container .skills-text {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+.containerxd {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+}
+.containerxd .titulo-trajes {
+  width: 90%;
+  text-align: center;
+  padding: 2rem;
+}
+.containerxd .titulo-trajes h1 {
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 0.3rem;
+}
+.containerxd .carousel {
+  width: 90%;
+  padding-bottom: 4rem;
+}
+.containerxd .carousel .carouselText {
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.471);
+}
+.containerxd .carousel .carousel-item .img {
+  height: 35rem;
+  max-width: 100%;
+  border: 2rem solid white;
+}
+
+.historia-container {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.historia-container .div-historia {
+  padding: 1rem;
+  text-align: center;
+}
+.historia-container .div-historia .titulo-historia {
+  padding: 1rem;
+  margin: 0;
+}
+.historia-container .div-historia .historia-texto {
+  margin: 0;
+}
+.historia-container .historia-imgs {
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  grid-template-areas: "img1" "img2" "img3";
+}
+.historia-container .historia-imgs .img1 {
+  grid-area: img1;
+}
+.historia-container .historia-imgs .img2 {
+  grid-area: img2;
+  width: 14rem;
+}
+.historia-container .historia-imgs .img3 {
+  grid-area: img3;
+}
+.historia-container .historia-imgs .img1, .historia-container .historia-imgs .img2, .historia-container .historia-imgs .img3 {
+  border: 10px solid #db1414;
+}
+
+@media only screen and (min-width: 860px) {
+  .historia-container .div-historia {
     width: 100%;
-    text-align: center;
-    color: white;
   }
-  .titulo-historia {
-    padding: 2rem;
-  }
-  .historia-texto {
-    width: 80%;
+  .historia-container .div-historia .historia-texto {
+    width: 90%;
     text-align: center;
     margin: 0 auto;
+    font-size: 1.2rem;
   }
-  .historia-imgs {
+  .historia-container .historia-imgs {
     padding: 2rem;
     display: grid;
     place-items: center;
@@ -80,30 +217,76 @@ header .nav-bar-items .icon-nav {
     gap: 20px;
     grid-template-areas: "img1 img2 img3";
   }
-  .img1 {
+  .historia-container .historia-imgs .img1 {
     grid-area: img1;
   }
-  .img2 {
+  .historia-container .historia-imgs .img2 {
     grid-area: img2;
     width: 14rem;
   }
-  .img3 {
+  .historia-container .historia-imgs .img3 {
     grid-area: img3;
   }
-  .img1, .img2, .img3 {
+  .historia-container .historia-imgs .img1, .historia-container .historia-imgs .img2, .historia-container .historia-imgs .img3 {
     border: 10px solid #db1414;
   }
-  .container {
+  .historia-container .historia-imgs .container {
     padding: 4rem;
   }
-  .villanos-main {
+  .historia-container .historia-imgs .villanos-main {
     background-color: black;
   }
-  .col {
+  .historia-container .historia-imgs .col {
     padding: 2rem;
   }
-  .card {
+  .historia-container .historia-imgs .card {
     font-weight: bold;
+  }
+}
+.villanos-main {
+  background-color: black;
+  width: 100%;
+}
+.villanos-main .container {
+  width: 100%;
+  padding: 1rem;
+}
+.villanos-main .container .col {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.villanos-main .container .col .card {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 860px) {
+  .card:hover {
+    transform: scale(1.1);
+  }
+}
+footer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: rgba(188, 20, 37, 0.799);
+}
+footer .logo-footer {
+  width: 4rem;
+}
+footer h3 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 860px) {
+  footer {
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+  }
+  footer .logo-footer {
+    width: 8rem;
   }
 }
 

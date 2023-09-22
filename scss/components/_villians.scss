@@ -1,0 +1,30 @@
+.villanos-main {
+    background-color: black;
+    width: 100%;
+
+    .container {
+        width: 100%;
+        padding: 1rem;
+
+        .col {
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            
+            .card {
+                text-align: center;
+                font-weight: bold;
+            }
+            
+
+        }
+
+        
+    }
+}
+
+@media only screen and (min-width: 860px){
+    .card:hover {
+      transform: scale(1.1);
+    }
+  }

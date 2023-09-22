@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgba(188, 20, 37, 0.799);
+    
+    .logo-footer {
+        width: 4rem;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (min-width: 860px) {
+    footer {
+        width: 100%;
+        position: relative;
+        justify-content: space-between;
+        
+        .logo-footer {
+          width: 8rem;
+        }
+
+    }
+}

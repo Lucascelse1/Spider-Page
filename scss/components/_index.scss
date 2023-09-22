@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-image: url(/assets/img/home-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .titulo-home {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+
+        h1 {
+            color: #fff;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 2.3rem;
+        }
+
+    }
+
+    .descripcion {
+        padding: 1rem;
+        text-align: center;
+
+        p {
+            color: white;
+            font-family: monospace;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 860px) {
+    .home {
+        background-image: url(/assets/img/Spider-man.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+
+        .titulo-home  {
+            justify-content: start;
+        }
+
+        .descripcion {
+            text-align: left;
+        }
+    }
+  
+    
+
+    
+}

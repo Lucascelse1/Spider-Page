@@ -1,0 +1,40 @@
+.skills-container {
+    background-image: url(/assets/img/fondo-mobile2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .skills-tittle {
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: underline;
+    }
+
+    .div-table {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+
+        .table-dark {
+            width: 100%;
+            text-align: center;
+            border: 0.1rem solid white;
+        }
+
+    }
+
+    
+    .skills-text {
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    
+
+
+}

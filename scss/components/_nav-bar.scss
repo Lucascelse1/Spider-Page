@@ -4,11 +4,12 @@ header {
 
     .nav-bar-items{
         display: flex;
+        flex-direction: column;
         width: 100%;
         justify-content: space-between;
         
         .navegation {
-                 
+
             .nav-link {
                 color: white;
                 font-weight: bold;
@@ -17,14 +18,19 @@ header {
                     
             
         }
+
+        .items-nav1 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
         
         .nav-logo2 {
             width: 3.5rem;
         }
 
         .icon-div {
-            display: flex;
-            align-items: center;
+            display: none;
         }
 
         .icon-nav {
@@ -33,6 +39,27 @@ header {
 
     }
     
+}
+
+@media only screen and (min-width: 860px){
   
-    
-  }
+   header {
+
+        .nav-bar-items {
+            flex-direction: row;
+            
+            .icon-div {
+                display: flex;
+                align-items: center;
+                .icon-nav {
+                    align-items: center;
+                }
+            }
+
+            .items-nav1 {
+                width: max-content;
+            }
+        }
+   }
+}
+
