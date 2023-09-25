@@ -17,6 +17,14 @@ header .nav-bar-items .navegation .nav-link {
   font-weight: bold;
   letter-spacing: 0.1rem;
 }
+header .nav-bar-items .navegation li:hover {
+  background-color: white;
+  transition: all 1s ease;
+  border-radius: 20%;
+}
+header .nav-bar-items .navegation .nav-link:hover {
+  color: black;
+}
 header .nav-bar-items .items-nav1 {
   width: 100%;
   display: flex;

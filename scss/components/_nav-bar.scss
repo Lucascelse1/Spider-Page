@@ -15,6 +15,17 @@ header {
                 font-weight: bold;
                 letter-spacing: 0.1rem;
             }
+
+            li:hover {
+                background-color: white;
+                transition: all 1s ease;
+                border-radius: 20%;
+            }
+
+            .nav-link:hover {
+                color: black;
+                
+            }
                     
             
         }
