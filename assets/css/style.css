@@ -108,7 +108,6 @@ header .nav-bar-items .icon-nav {
   color: white;
   text-align: center;
   padding: 1rem;
-  text-decoration: underline;
 }
 .skills-container .div-table {
   width: 100%;
@@ -246,6 +245,11 @@ header .nav-bar-items .icon-nav {
 .villanos-main {
   background-color: black;
   width: 100%;
+}
+.villanos-main h1 {
+  text-align: center;
+  padding: 1rem;
+  color: white;
 }
 .villanos-main .container {
   width: 100%;
