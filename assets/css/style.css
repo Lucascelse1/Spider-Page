@@ -62,7 +62,7 @@ header .nav-bar-items .icon-nav {
 }
 
 .home {
-  background-image: url(https://github.com/Lucascelse1/Spider-Page/blob/main/scss/components/home-mobile.png);
+  background-image: url(scss/components/home-mobile.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
