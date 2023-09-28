@@ -5,7 +5,7 @@
 }
 
 .home {
-    background-image: url(../components/fondo-mobile2.png);
+    background-image: url(components/fondo-mobile2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,7 +41,7 @@
 
 @media only screen and (min-width: 860px) {
     .home {
-        background-image: url(Spider-man.png);
+        background-image: url(spiderman.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
