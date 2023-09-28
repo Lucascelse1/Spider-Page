@@ -62,7 +62,7 @@ header .nav-bar-items .icon-nav {
 }
 
 .home {
-  background-image: url(./assets/img/Spider-man.png);
+  background-image: url(../assets/img/Spider-man.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -92,7 +92,7 @@ header .nav-bar-items .icon-nav {
 
 @media only screen and (min-width: 860px) {
   .home {
-    background-image: url(./assets/img/Spider-man.png);
+    background-image: url(../assets/img/Spider-man.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -106,7 +106,7 @@ header .nav-bar-items .icon-nav {
   }
 }
 .skills-container {
-  background-image: url(/assets/img/fondo-mobile2.png);
+  background-image: url(../assets/img/fondo-mobile2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
