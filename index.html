@@ -51,31 +51,33 @@
 
         <div class="ifr-form">
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WtsTNLpsLbs?si=Qd2gvjyAi1Cd6Egd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/WtsTNLpsLbs?si=Qd2gvjyAi1Cd6Egd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             <form action="">
                 <div class="mb-3 nom-ape">
                     <div>
                         <label for="">Nombre</label>
-                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="text" class="form-control" placeholder="Nombre" required>
                     </div>
 
                     <div>
                         <label for="">Apellido</label>
-                        <input type="text" class="form-control" placeholder="Apellido"> 
+                        <input type="text" class="form-control" placeholder="Apellido" required> 
                     </div>
                     
                 </div>
 
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
                 </div>
 
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Contame tu problema, lo tendre en cuenta en mis patrullajes.</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="exampleFormControlTextarea1" class="form-label">Contame tu problema.</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>
+
+                <button class="form-btn" type="submit">Enviar</button>
             </form>
 
         </div>

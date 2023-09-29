@@ -92,11 +92,17 @@ header .nav-bar-items .icon-nav {
 .home .ifr-form {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
+.home .ifr-form iframe {
+  width: 80%;
+  height: 20rem;
+}
 .home .ifr-form form {
-  width: 40%;
+  width: 80%;
+  padding: 2rem;
 }
 .home .ifr-form form label {
   color: white;
@@ -109,6 +115,11 @@ header .nav-bar-items .icon-nav {
 .home .ifr-form form .nom-ape div {
   width: 48%;
 }
+.home .ifr-form form .form-btn {
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(188, 20, 36);
+}
 
 @media only screen and (min-width: 860px) {
   .home {
@@ -116,13 +127,21 @@ header .nav-bar-items .icon-nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
   }
   .home .titulo-home {
     justify-content: start;
   }
   .home .descripcion {
     text-align: left;
+  }
+  .home .ifr-form {
+    flex-direction: row;
+  }
+  .home .ifr-form iframe {
+    width: 42%;
+  }
+  .home .ifr-form form {
+    width: 48%;
   }
 }
 .skills-container {
@@ -300,7 +319,6 @@ header .nav-bar-items .icon-nav {
 }
 footer {
   display: flex;
-  position: relative;
   align-items: center;
   background-color: rgba(188, 20, 37, 0.799);
 }
