@@ -89,6 +89,26 @@ header .nav-bar-items .icon-nav {
   font-size: 1.5rem;
   font-weight: bold;
 }
+.home .ifr-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home .ifr-form form {
+  width: 40%;
+}
+.home .ifr-form form label {
+  color: white;
+  font-size: 1.5rem;
+}
+.home .ifr-form form .nom-ape {
+  display: flex;
+  justify-content: space-between;
+}
+.home .ifr-form form .nom-ape div {
+  width: 48%;
+}
 
 @media only screen and (min-width: 860px) {
   .home {

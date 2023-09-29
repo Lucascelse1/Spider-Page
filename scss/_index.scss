@@ -36,6 +36,31 @@
             font-weight: bold;
         }
     }
+
+    .ifr-form {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        form {
+            width: 40%;
+
+            label {
+                color: white;
+                font-size: 1.5rem;
+            }
+
+            .nom-ape {
+                display: flex;
+                justify-content: space-between;
+                
+                div {
+                    width: 48%;
+                }
+            }
+        }
+    }
     
 }
 
